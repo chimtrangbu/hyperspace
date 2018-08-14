@@ -1,0 +1,1 @@
+du -b .[!.]* * | sort -h | grep -i 'a\|i\|u\|e\|o' | cut -d '	' -f 2

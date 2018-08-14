@@ -1,0 +1,1 @@
+grep -i "spy" books | grep -vi 'mata\|hari'

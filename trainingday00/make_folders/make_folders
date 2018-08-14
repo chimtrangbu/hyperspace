@@ -1,0 +1,6 @@
+mkdir public
+chmod 775 public
+mkdir profile
+chmod 750 profile
+mkdir missions
+chmod 500 missions

@@ -1,0 +1,1 @@
+diff secret-yesterday secret-today | grep "<" | wc -l
