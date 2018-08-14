@@ -1,0 +1,22 @@
+r = {}
+
+
+def put(key, value):
+    global r
+    r[key] = value
+
+
+def get(key):
+    return r[key] if key in r.keys() else None
+
+
+def exists(key):
+    return (key in r.keys())
+
+
+def delete(key):
+    global r
+    try:
+        del r[key]
+    except KeyError:
+        pass
